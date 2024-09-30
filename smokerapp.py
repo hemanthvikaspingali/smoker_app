@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import time
 
 
@@ -17,7 +16,7 @@ This application is designed to help predict whether an individual is a smoker o
 3. Watch the progress as we analyze your data and see the results instantly!
 
 Enjoy exploring, and take a step towards understanding health better! 💡""")
-df = pd.read_csv("C:/Users/sai/Desktop/Smokerapp/Smoker_App/train.csv")
+df = pd.read_csv("train.csv")
 
 
 menu=st.sidebar.radio("Menu",["Home","Smoker Status"])
